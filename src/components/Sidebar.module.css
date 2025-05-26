@@ -1,0 +1,48 @@
+.sidebar {
+  width: 240px;
+  background-color: #eef4fa;
+  padding: 20px;
+  height: 100vh;
+  box-shadow: 2px 0 4px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+}
+
+.heading {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #333;
+}
+
+.navList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navItem {
+  padding: 10px 0;
+  font-size: 16px;
+  color: #555;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.navItem:hover {
+  background-color: #ddeaf5;
+  border-radius: 6px;
+  padding-left: 10px;
+}
+
+.icon {
+  margin-right: 10px;
+  font-size: 18px;
+  vertical-align: middle;
+}
